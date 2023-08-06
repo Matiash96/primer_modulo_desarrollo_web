@@ -9,15 +9,17 @@
     <meta name="author" content="Matías Marchetti">
     <title>Pesca</title>
 
-    <!-- Icono de la ventana -->
-    <link rel="shortcut icon" href="./media/logo.ico" type="image/x-icon">
-
     <!-- Link de estilos de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="../css/style.css">
+
     <!-- Iconos de Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Icono de la ventana -->
+    <link rel="shortcut icon" href="../media/logo.ico" type="image/x-icon">
 
     <!-- defer cargar de manera diferida el script del html -->
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -26,8 +28,6 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
         crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -36,22 +36,24 @@
         <div class="container-fluid">
 
             <!-- Logo y nombre de la tienda -->
-            <a class="navbar-brand" href="./index.html">
-                <img src="./media/logo.webp" alt="logo-pescador" class="logo">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../media/logo.webp" alt="logo-pescador" class="logo">
                 <span class="text-warning">Pesca</span>
             </a>
 
             <!-- boton del menu -->
+
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- elementos del menu colapsable -->
+
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     
                     <li class="nav-item dropdown">
@@ -59,14 +61,14 @@
                             Productos
                         </a>
                         <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./pages/canias.html">Cañas</a></li>
-                            <li><a class="dropdown-item" href="./pages/reel.html">Reel</a></li>
-                            <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="./canias.html">Cañas</a></li>
+                            <li><a class="dropdown-item" href="./reel.html">Reel</a></li>
+                            <li><a class="dropdown-item  active" href="./accesorios.html">Accesorios</a></li>
                         </ul>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
                     </li>
                 </ul>
 
@@ -77,30 +79,3 @@
 </body>
 
 </html>
-
-<!-- enlaces redes sociales -->
-
-                <!-- <ul class="navbar-nav  flex-row flex-wrap text-light">
-
-                    <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-instagram"></i>
-                        <small class="d-md-none ms-2">Twitter</small>
-                    </li>
-
-                    <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-whatsapp"></i>
-                        <small class="d-md-none ms-2">WhatsApp</small>
-                    </li>
-
-                    <li class="nav-item col-6 col-md-auto p-3">
-                        <i class="bi bi-facebook"></i>
-                        <small class="d-md-none ms-2">Facebook</small>
-                    </li>
-
-                </ul> -->
-
-                <!--boton Informacion -->
-
-                <!-- <form class="d-flex">
-                    <button class="btn btn-outline-warning d-none d-md-inline-block " type="submit">Informacion</button>
-                </form> -->
