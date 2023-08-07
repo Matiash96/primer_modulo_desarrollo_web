@@ -5,7 +5,20 @@
     grid-template-columns: 200px auto;
 }
 
-.section-2{
+.navegador{
+    margin-top: 5px;
+}
+
+.navegador-active{
+    background-color: #534e4e;
+    color: white;
+}
+
+.navegador a:hover{
+    background-color: rgb(125, 136, 132);
+}
+
+.tienda{
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
@@ -21,10 +34,25 @@
     border-radius: 5px 5px 0px 0px;
 }
 
+@media (max-width: 260px){
+    .cards{
+        width: 100%;
+    }
+}
+
 @media (max-width: 719px) { 
     .section{
         display: flex;
         flex-wrap: wrap;
         margin: auto;
     }    
+
+    .navegador{
+        width: 80%;
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    
 }
+
