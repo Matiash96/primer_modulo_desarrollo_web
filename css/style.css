@@ -1,3 +1,18 @@
+/* Estilos para el coruosel del header */
+.header{
+    height: 60vh;
+    margin-bottom: 20px;
+}
+
+.header .header-img{
+    width: 100%;
+    height: 60vh;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
 /* Estilos del menú */
 .nav-color{
     background-color: #676767;
@@ -6,6 +21,78 @@
 .logo{
     width: 40px;
 }
+
+/* Estilos de main */
+.main-index{
+    width: 100%;
+}
+
+.section-main-index{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.section-main-index h1{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+.section-main-index a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.card-main-index{
+    width: 18rem;
+}
+
+.card-main-index .card-texto{
+    text-align: center;
+    background-color:#C7C7C7;
+    color: #050505;
+}
+
+/* Estilos para los iconos */
+.prueba{
+    width: 100%;
+}
+
+.section-medios{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 900px;
+    height: 200px;
+    margin: auto;
+}
+
+.container-icono{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.container-icono span{    
+    font-size: 50px;
+}
+
+.container-icono-texto{
+    margin: auto;
+}
+
+.container-icono-texto h4{
+    text-align: center;
+}
+
+.container-icono-texto p{
+    text-align: center;
+}
+
 
 /* Estilos del footer */
 footer{
@@ -48,15 +135,51 @@ footer h1{
     height: 36px;
 }
 
-.footer-row label{
+.footer-row .link{
     color: #C7C7C7;
     margin-top: 10px;
     margin-left: 20px;
+    text-decoration: none;
+    
+}
+
+.link:hover{
+    transition: 1s;
+    color: black;
+    border-radius: 5px;
+}
+
+@media (max-width: 288px) { 
+    .card-main-index{
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) { 
     .container-body{
         flex-direction: column;
+    }
+    .section-medios{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+    }
+    .container-icono span{    
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .container-icono-texto h4{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    
+    .container-icono-texto p{
+        text-align: center;
+        display: block;
+        width: 100%;
     }
 }
 
@@ -68,5 +191,13 @@ footer h1{
     .column2{
         margin-bottom: 40px;
     }
+    .header{
+        height: auto;
+        min-height: 200px;
+    }
     
+    .header .header-img{
+        height: auto;
+        min-height: 200px;
+    }
 }

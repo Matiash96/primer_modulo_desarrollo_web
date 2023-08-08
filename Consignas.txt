@@ -1,8 +1,8 @@
 Para la entrega final del primer módulo de Desarrollo Web, lenguajes HTML5 y CSS3 deberán cumplir los siguientes requisitos para ser aprobados:
 
 - Sitio Web completamente responsive, de lo contrario se descontarán 3 puntos
-- Deberan tener en al menos 2 html, combinación de flexbox con grid, de lo contrario se descontarán 0.5 puntos
-- Las fotos que sean optimizadas lo más posible para web
+
+
 - Cada html con 5 etiquetas semánticas como mínimo: (main, footer, nav, section)
 obligatorio header, main y footer (puede ser nav, section, article, etc)
 
@@ -14,3 +14,5 @@ Listo:
 - Deberán tener, en al menos 1 html código de bootstrap, de lo contrario se descontarán 0.5 puntos
 - La hoja de estilos, debe estar correctamente linkeada, de lo contrario, se descontarán 3 puntos
 - Metatags completas, al menos meta keyboards y meta description, de lo contrario se descontarán 1 puntos
+- Las fotos que sean optimizadas lo más posible para web
+- Deberan tener en al menos 2 html, combinación de flexbox con grid, de lo contrario se descontarán 0.5 puntos
