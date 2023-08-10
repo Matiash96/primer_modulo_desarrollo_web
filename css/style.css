@@ -58,7 +58,7 @@ body{
 }
 
 /* Estilos para los iconos */
-.prueba{
+.section-container{
     width: 100%;
 }
 
@@ -120,7 +120,7 @@ footer h1{
 }
 
 .column1 p{
-    font-size: 14px;
+    font-size: 12px;
     color: #C7C7C7;
     margin-top: 20px;
 }
