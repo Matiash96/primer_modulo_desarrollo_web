@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tienda donde encontraras todo lo necesario para disfrutar de una buena pesca deportiva">
+    <meta name="description"
+        content="Tienda donde encontraras todo lo necesario para disfrutar de una buena pesca deportiva">
     <meta name="keywords" content="pesca, pesca deportiva, aire libre, aventura, tiempo libre">
     <meta name="author" content="Matías Marchetti">
     <title>El balde de carnada</title>
@@ -73,7 +74,86 @@
             </div>
         </div>
     </nav>
-    
+
+    <header class="header-contacto">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img class="header-contacto-img" src="../media/fondo-tienda-1.webp" class="d-block w-100"
+                        alt="fondo-de-pescador">
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="button-visite-tienda">
+                            <a href="../pages/canias.html">
+                                Visite nuestra tienda
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="header-contacto-img" src="../media/fondo-tienda-2.webp" class="d-block w-100"
+                        alt="fondo-de-pescador">
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="button-visite-tienda">
+                            <a href="../pages/reel.html">
+                                Visite nuestra tienda
+                            </a>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <img class="header-contacto-img" src="../media/fondo-1.webp" class="d-block w-100"
+                        alt="fondo-de-pescador">
+                    <div class="carousel-caption d-none d-md-block">
+                        <button class="button-visite-tienda">
+                            <a href="../index.html">
+                                Visite nuestra tienda
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-contacto">
+        <section class="mapa">
+            <h1>¿Donde encontrarnos?</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13618.72990606023!2d-64.1833163!3d-31.4228733!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28f63cf2077%3A0xca71e10e4641086b!2sPaseo%20del%20Buen%20Pastor!5e0!3m2!1ses!2sar!4v1691671216930!5m2!1ses!2sar"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="formulario">
+            <form method="post" class="form">
+                <h2>Consulta</h2>
+                <input type="text" name="nombre" placeholder="Ingrese su Nombre y Apellido" required>
+                <input type="email" name="email" placeholder="Ingrese su email" required>
+                <input type="tel" name="telefono" placeholder="Número de contacto">
+                <textarea name="mensaje" placeholder="Escriba aquí su consulta"></textarea>
+
+                <div class="div-checkbox">
+                    <div class="checkbox"><input type="checkbox"></div>
+                    <label>
+                        Quiero recibir información de nuestros productos
+                    </label>
+                </div>
+
+
+                <button type="submit" name="enviar" class="button"><strong>Enviar</strong></button>
+            </form>
+        </section>
+    </main>
+
     <footer>
         <div class="container-body">
             <section class="column1">

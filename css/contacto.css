@@ -1,0 +1,120 @@
+/* Estilos para el coruosel del header */
+.header-contacto{
+    height: 40vh;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header-contacto .header-contacto-img{
+    width: 100%;
+    height: 40vh;
+    max-width: 1200px;
+}
+
+.button-visite-tienda{
+    background-color: rgba(0,0,0,0.7);;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.button-visite-tienda a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.button-visite-tienda:hover{
+    filter: invert(100%);
+    color: #000000;
+    transition: 0.5s;
+}
+
+
+/* Estilos para el main de contacto */
+.main-contacto{
+    width: 100%;
+}
+
+.mapa{
+    width: 80%;
+    height: 500px;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+.mapa h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 87%;
+}
+
+/* Estilos al formulario */
+.formulario{
+    width: 100%;
+}
+
+.form{
+    width: 450px;
+    background: rgb(188, 191, 194);
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 7px;
+}
+
+.form h2{
+    color: black;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea, .button{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    min-width: 100%;
+    max-width: 100%; 
+}
+
+.form .checkbox{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form label{
+    margin-right: 15px;
+}
+
+.button{
+    background-color: rgba(11, 14, 47, 0.5);
+    color: black;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.button:hover{
+    cursor: pointer;
+} 
+
+@media (max-width: 450px){
+    .form{
+        width: 95%;
+    }
+    .div-checkbox{
+        display: flex;
+        align-items: center;
+    }
+}
